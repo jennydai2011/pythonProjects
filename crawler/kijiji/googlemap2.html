@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 100%;
+        height: 700px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+       var address = [];
+       function readTextFile(file)
+       {
+           var rawFile = new XMLHttpRequest();
+           rawFile.open("GET", file, false);
+           rawFile.onreadystatechange = function ()
+           {
+               if(rawFile.readyState === 4)
+               {
+                   if(rawFile.status === 200 || rawFile.status == 0)
+                   {
+                       var allText = rawFile.responseText;
+                       alert(allText);
+                       address.push(allText.split("\\n"));
+                   }
+               }
+           }
+           rawFile.send(null);
+       }
+
+        function initMap() {
+          //readTextFile("file:///C:/java/pythonProjects/crawler/kijiji.txt");
+          readTextFile("kijiji-garagesale.txt");
+          console.log(address);
+          var uluru = {lat: 53.4752185, lng: -113.5735519};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+          /* for(var i = 0; i< address.length; i++){
+            iaddr = address[i];
+            //TODO convert address to position??
+            if(iaddr){
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          } */
+
+
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6a8kgSNoxL6FX6AgGrC0kVXCZdBhUxgw&callback=initMap">
+      </script>
+  </body>
+</html>
