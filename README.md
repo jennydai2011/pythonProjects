@@ -13,3 +13,5 @@ http://blog.csdn.net/savionchen/article/details/43949981
 
 Django 教程
 http://python.jobbole.com/87444/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
+
+http://python.jobbole.com/88188/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
