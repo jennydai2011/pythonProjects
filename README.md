@@ -23,10 +23,17 @@ python机器学习数学基础
     2. 线性代数
     3. 概率
 https://weibo.com/ttarticle/p/show?id=2309351000224044911069548323
+
+http://www.hahack.com/math/math-linear-algebra-graded/
+
 https://www.zhihu.com/question/36324957
+
 http://www.infoq.com/cn/news/2017/03/mathematics-machine-learn
+
 https://github.com/JustFollowUs/Machine-Learning
+
 https://weibo.com/ttarticle/p/show?id=2309351000224044911069548323
+
 https://hackernoon.com/learning-ai-if-you-suck-at-math-8bdfb4b79037
 
 python package topic
