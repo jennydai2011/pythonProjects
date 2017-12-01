@@ -20,10 +20,16 @@ python机器学习数学基础
 
 
 python package topic
+
 1.Numpy
+
 2.Scipy
+
 3.Pandas
+
 4.Matplotlib
+https://www.youtube.com/watch?v=4Y7f0znUT6E&list=PLXO45tsB95cKiBRXYqNNCw8AUo6tYen3l
+
 5.Scilearn
 
 python 技术文章
