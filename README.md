@@ -22,6 +22,7 @@ problem-solving-with-algorithms-and-data-structure-using-python 中文版|https:
  python3-cookbook|http://python3-cookbook.readthedocs.io/zh_CN/latest/chapters/p01_data_structures_algorithms.html
 “数据结构与算法（Python 语言）”教学材料|http://www.math.pku.edu.cn/teachers/qiuzy/ds_python/courseware/index.htm
 python基础数据结构|http://javayhu.me/python/
+算法|http://code.py40.com/algorithm/
 
 ## python机器学习数学基础
     1. 微积分
