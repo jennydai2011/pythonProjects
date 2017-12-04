@@ -71,4 +71,5 @@ http://python.jobbole.com/88188/?utm_source=blog.jobbole.com&utm_medium=relatedP
     
 3. python scrap - download stock index and stock historical data
 4. python speech reconginition
+https://pythonprogramminglanguage.com/speech-recognition/
 5. python matplotlib
