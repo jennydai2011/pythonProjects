@@ -14,10 +14,10 @@ import fix_yahoo_finance as yf
 yf.pdr_override() # <== that's all it takes :-)
 
 start = dt.datetime(2000, 1, 1)
-end = dt.datetime(2017, 12, 5)
+end = dt.datetime(2017, 12, 31)
 
 # download dataframe
-ticker = 'ARRY'
+#ticker = 'ARRY'
 def downloadHisData(ticker):
     data = pdr.get_data_yahoo(ticker, start="2000-01-01", end="2017-12-01")
 
