@@ -19,7 +19,7 @@ end = dt.datetime(2017, 12, 31)
 # download dataframe
 #ticker = 'ARRY'
 def downloadHisData(ticker):
-    data = pdr.get_data_yahoo(ticker, start="2000-01-01", end="2017-12-01")
+    data = pdr.get_data_yahoo(ticker, start="2000-01-01", end="2017-12-31")
 
     # download Panel
     #data = pdr.get_data_yahoo(["SPY", "TLSA"], start="2017-01-01", end="2017-04-30")
@@ -29,3 +29,6 @@ def downloadHisData(ticker):
     # dest_dir = os.path.join(path, file_name)  # located file
 
     data.to_csv('data/IBB/'+ticker+'.csv')
+    print('Ticker:' +ticker+' csv download finished')
+
+#downloadHisData(ticker)

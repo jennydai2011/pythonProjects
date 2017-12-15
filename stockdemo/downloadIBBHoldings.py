@@ -1,0 +1,2 @@
+#Download the csv fine from following link and save to data/IBB_holdings.csv
+#https://www.ishares.com/us/products/239699/ishares-nasdaq-biotechnology-etf/1467271812596.ajax?fileType=csv&fileName=IBB_holdings&dataType=fund
