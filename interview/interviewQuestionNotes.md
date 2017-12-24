@@ -29,3 +29,10 @@
          threads.append(t)
          t.start()
  ```
+
+# Q4: Ternary operation in python
+  - behave like ternary operation, but not real ternary operation
+  ```python
+    x, y = 25, 50
+    big = x if x < y else y
+  ```
