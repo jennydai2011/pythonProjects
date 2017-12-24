@@ -39,6 +39,7 @@
 
 # Q5: Monkey patch in Python
 - Monkey patch refers to dynamic modifications of class or module in runtime
+- Used in quick fix or extending thirdparty package's functions
 ```python
 '''original class definition'''
 #m.py
@@ -57,4 +58,20 @@ def monkey_f(self):
  m.Myclass.f = monkey_f
  obj=m.MyClass()
  obj.f #then the function is monkey_f()
+```
+
+#  Q6: How can you randomize the items of a list in place?
+```python
+from random import shuffle
+x=['1','2','3','4']
+shuffle(x)
+print(x) #result is elements in list are randomly ordered
+```
+
+# Q7: Write a sorting algoritm for a numerical dataset
+```python
+list=["1", "10", "4", "2", "5"]
+list=[int(i) for i in list] #change item from str to int
+list.sort() #sorting
+print(list)
 ```
