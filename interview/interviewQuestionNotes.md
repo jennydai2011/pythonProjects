@@ -16,15 +16,15 @@
   - GIL (Global Interpretor Locker) only allows one thread running at a time
   - multi-thread package
   ```python     
-         import threading
+      import threading
          
-         def worker():
-            """thread worker function"""
+      def worker():
+          """thread worker function"""
           print 'Worker'
-          return
+         return
           
-         threads = []
-         for i in range(5):
+     threads = []
+     for i in range(5):
          t = threading.Thread(target=worker)
          threads.append(t)
          t.start()
