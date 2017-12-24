@@ -36,3 +36,15 @@
     x, y = 25, 50
     big = x if x > y else y
   ```
+
+# Q5: Monkey patch in Python
+- Monkey patch refers to dynamic modifications of class or module in runtime
+```python
+'''original class definition'''
+#m.py
+class MyClass:
+  def f(self):
+    print("f()")
+    
+```
+
