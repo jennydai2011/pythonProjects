@@ -13,8 +13,12 @@ python练习题      | 网址        
 ## python在线互动教程
 1.https://www.learnpython.org/en/Welcome
 2.https://www.datacamp.com/courses/intro-to-python-for-data-science/?utm_source=learnpython_com&utm_campaign=learnpython_tutorials
+3. https://learn.freecodecamp.org/ for basic
+   https://guide.freecodecamp.org/python/
+4. https://brilliant.org/
+5. https://projecteuler.net/archives
 
-## python算法题
+## python data structure and algorith
 名称      | 网址         
  -------- | :-----------: 
 Problem Solving with Algorithms and Data Structures using Python|http://interactivepython.org/courselib/static/pythonds/index.html
@@ -23,6 +27,7 @@ problem-solving-with-algorithms-and-data-structure-using-python 中文版|https:
 “数据结构与算法（Python 语言）”教学材料|http://www.math.pku.edu.cn/teachers/qiuzy/ds_python/courseware/index.htm
 python基础数据结构|http://javayhu.me/python/
 算法|http://code.py40.com/algorithm/
+Berkeley CS 61B Data Structures, with Josh Hug|https://sp18.datastructur.es/
 
 ## python机器学习数学基础
     1. 微积分
@@ -41,6 +46,8 @@ https://github.com/JustFollowUs/Machine-Learning
 https://weibo.com/ttarticle/p/show?id=2309351000224044911069548323
 
 https://hackernoon.com/learning-ai-if-you-suck-at-math-8bdfb4b79037
+
+https://www.datacamp.com/courses/intro-to-python-for-data-science
 
 ## python package topic
 包      | 视频         
@@ -62,7 +69,16 @@ http://blog.csdn.net/savionchen/article/details/43949981
 http://python.jobbole.com/87444/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
 http://python.jobbole.com/88188/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
 
+## Python tutorial
+https://medium.freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567
+https://www.codecademy.com/learn/learn-python
+https://www.yeswecode.org/5_places_you_can_learn_to_code_online_for_free
+Google's Python Class
+Learn Python the Hard Way
+LearnPython - interactive Python tutorial
 
+## Reddit
+https://www.reddit.com/search?q=python
 
 ## 个人练手项目
 1. python scrap -kijiji garage sale and show match via google map API
