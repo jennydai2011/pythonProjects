@@ -28,7 +28,14 @@ problem-solving-with-algorithms-and-data-structure-using-python 中文版|https:
 python基础数据结构|http://javayhu.me/python/
 算法|http://code.py40.com/algorithm/
 Berkeley CS 61B Data Structures, with Josh Hug|https://sp18.datastructur.es/
-
+lintcode| http://www.lintcode.com/zh-cn/
+程序设计类实验辅助教学平台|https://pintia.cn/
+数据结构_中国大学MOOC(慕课)|https://link.zhihu.com/?target=http%3A//www.icourse163.org/course/zju-93001%23/info
+https://link.zhihu.com/?target=http%3A//www.patest.cn/contests/mooc-ds/
+BZOJ|（http://www.lydsy.com/JudgeOnline/）
+codeforces|（http://codeforces.com/）
+wikioi|（http://codevs.cn/）
+LeetCode Online Judge |https://link.zhihu.com/?target=https%3A//oj.leetcode.com/
 ## python机器学习数学基础
     1. 微积分
     2. 线性代数
