@@ -3,4 +3,4 @@
 *[LeetCode 官方网站](https://leetcode.com/)
 
 解答
-1. Two Sum
+1. [Two Sum](001-two-sum.md)
