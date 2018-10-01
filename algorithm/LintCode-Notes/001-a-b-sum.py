@@ -1,6 +1,3 @@
-[Description](https://www.lintcode.com/problem/a-b-problem/description)
-Write a function that add two numbers A and B.
-```
 class Solution:
     """
     @param a: An integer
@@ -21,4 +18,7 @@ class Solution:
             a = c_int32(a ^ b).value
             b = c_int32(carry << 1).value
         return a 
-```
+
+s = Solution()
+t = s.aplusb(10, -10)
+print(t)
