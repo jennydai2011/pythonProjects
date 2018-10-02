@@ -59,3 +59,74 @@ you_get notes
     if not info_only:
         download_urls([url], title, ext, size, output_dir)
  ```
+8. get_content
+    ```
+    req = request.Request(url, headers=headers)
+    response = urlopen_with_retry(req)
+    data = response.read()
+    return data
+    ```
+    ```
+    def get_content(url, headers={}, decoded=True):
+    """Gets the content of a URL via sending a HTTP GET request.
+    Args:
+        url: A URL.
+        headers: Request headers used by the client.
+        decoded: Whether decode the response body using UTF-8 or the charset specified in Content-Type.
+    Returns:
+        The content as a string.
+    """
+
+    logging.debug('get_content: %s' % url)
+
+    req = request.Request(url, headers=headers)
+    if cookies:
+        cookies.add_cookie_header(req)
+        req.headers.update(req.unredirected_hdrs)
+
+    response = urlopen_with_retry(req)
+    data = response.read()
+
+    # Handle HTTP compression for gzip and deflate (zlib)
+    content_encoding = response.getheader('Content-Encoding')
+    if content_encoding == 'gzip':
+        data = ungzip(data)
+    elif content_encoding == 'deflate':
+        data = undeflate(data)
+
+    # Decode the response body
+    if decoded:
+        charset = match1(
+            response.getheader('Content-Type'), r'charset=([\w-]+)'
+        )
+        if charset is not None:
+            data = data.decode(charset)
+        else:
+            data = data.decode('utf-8', 'ignore')
+
+    return data
+
+    ```
+9. download_urls
+    ```
+    def download_urls(
+    urls, title, ext, total_size, output_dir='.', refer=None, merge=True,
+    faker=False, headers={}, **kwargs
+    ):
+    
+    ...
+    output_filename = get_output_filename(urls, title, ext, output_dir, merge)
+    output_filepath = os.path.join(output_dir, output_filename)
+    
+    ...url_save
+    ```
+10. url_save
+     def url_save(
+    url, filepath, bar, refer=None, is_part=False, faker=False,
+    headers=None, timeout=None, **kwargs
+    ):
+11. urlopen_with_retry
+   
+    
+    request.urlopen(*args, **kwargs)
+12. ffmpeg_download_stream in ffmpeg.py
