@@ -30,3 +30,5 @@
 
 
 [用Python写爬虫，用什么方式、框架比较好？](https://www.zhihu.com/question/19899608)
+[开源爬虫框架对比](https://zhuanlan.zhihu.com/p/40650078)
+[Python爬虫进阶一之爬虫框架概述](https://cuiqingcai.com/2433.html)
