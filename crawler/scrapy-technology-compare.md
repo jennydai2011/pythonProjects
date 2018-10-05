@@ -27,3 +27,6 @@
  
  distributed scraping
  Scrapy + MongoDB + Redis(task queue)
+
+
+[用Python写爬虫，用什么方式、框架比较好？](https://www.zhihu.com/question/19899608)
