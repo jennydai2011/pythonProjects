@@ -3,11 +3,11 @@
     https://cuiqingcai.com/2443.html
     #### install:
      - Pip
-        python get-pip.py
+        --python get-pip.py
      -PhantamJs
-        brew install phantomjs
+        --brew install phantomjs
      -Pyspider
-        pip install pyspider
+        --pip install pyspider
     
      
 2. test installation
