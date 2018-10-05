@@ -1,5 +1,12 @@
-python3
-Beautifulsoup 4
-you-get
-google map api
+used techonolies
+python re
+python urllib
+request
+beautifulsoup
+Xpath
+Scrapy
+MongoDB
+PyMongo
+Reddis
 
+[techonoly compare]
