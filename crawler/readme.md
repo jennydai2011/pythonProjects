@@ -9,4 +9,4 @@
 - PyMongo
 - Reddis
 
-[techonoly compare]
+[techonoly compare](scrapy technology compare.md)
