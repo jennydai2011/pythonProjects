@@ -1,5 +1,24 @@
 
 
+3 steps
+1. send request and get response
+2. parse response
+3. find next url 
+
+options to send request and get response
+1. urllib, urllib.request  -- python built-in, no need to install, need to handle encode
+2. request -- need to install,
+3. selenium -- simulate browser to send request
+4. phantomjs  -- headless browser
+5. scrapy - framwork to send request
+
+options to parse response
+1. re  -- regular expression, only can handle simple requirements
+2. BeautifulSoup  -- object, 
+3. lxml -- xpath
+4. pyquery -- similar to jquery to select/locate in html
+5. scrapy -- framework to parse reponse ( selector)
+
 1. basic
     url.open
     re compile
