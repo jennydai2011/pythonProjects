@@ -2,9 +2,9 @@ Notes of math learning
 
 ## Machine learning Math
 1. linear algebra
-2. p&s
-3.calculus
-4.algorithm
+2. p&s 
+3. calculus 
+4. algorithm 
 5. data preprocessing
 
 ## Linear algebra
