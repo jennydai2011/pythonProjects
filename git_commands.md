@@ -15,4 +15,5 @@ git filter-branch --force --index-filter \
 --prune-empty --tag-name-filter cat -- --all
 
 #remove file from history
+
 git filter-branch --force --index-filter 'git rm -r --cached --ignore-unmatch machine\ learning/sentdex/X.pickle' HEAD
