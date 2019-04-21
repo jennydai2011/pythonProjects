@@ -25,8 +25,21 @@ def twoSum(nums, target):
     :rtype List[int]
     """
 
-    for i in range(len(nums)):
-        a = target - nums[i]
-        if a in nums and i!=nums.index(a):
-            return ([i, nums.index(a)])
+     # solution#1 - time O(n), space O(n)
+        temp = {nums[0]: 0}
+        # temp ={}
+        #for i, v in enumerate(nums, 0):
+        for i in range(1, len(nums)):
+            v = nums[i]
+            #if target - v in temp.keys():
+            if target - nums[i] in temp.keys():
+                return [temp[target - v], i]
+            else:
+                temp[v] = i
+
+        # solution#2 - time o(n), space o(1)
+        # for i in range(len(nums)):
+        #     a = target - nums[i]
+        #     if a in nums and i!=nums.index(a):
+        #         return ([i, nums.index(a)])
 ```
